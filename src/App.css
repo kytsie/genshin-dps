@@ -1,0 +1,23 @@
+.line-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border: 1px solid rgba(138, 138, 138, 0);
+  transition: border 0.3s ease;
+}
+
+.line-box:hover {
+  border: 1px solid rgb(138, 138, 138);
+}
+
+.role-name {
+  width: 100px;
+  text-align: center;
+  margin: 0 !important;
+}
+
+.role-line {
+  flex-shrink: 0;
+  flex-grow: 1;
+  padding-right: 20px;
+}
